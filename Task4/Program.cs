@@ -14,13 +14,7 @@ int min = 0;
         max = num_2;
     else if (num_3 >= num_1 && num_3 >= num_2)
         max = num_3;
- 
-    if (num_1<= num_2 && num_1 <= num_3)
-        min = num_1;
-    else if (num_2 <= num_1 && num_2 <= num_3)
-        min = num_2;
-    else if (num_3 <= num_1 && num_3 <= num_2)
-        min = num_3;
+
  
 Console.WriteLine("Максимальное число {0} " , max);
 Console.ReadLine();
