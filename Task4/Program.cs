@@ -6,7 +6,6 @@ Console.Write("Введите значение № 3: ");
 int num_3 = Convert.ToInt32(Console.ReadLine());
         
 int max = 0;
-int min = 0;
  
     if (num_1 >= num_2 && num_1 >= num_3)
         max = num_1;
